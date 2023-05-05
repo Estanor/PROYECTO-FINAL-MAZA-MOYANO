@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Seleccione un Manga</h2>
+<select name="mangas" id="mangas">
+    <option value="Default">Seleccione un Manga</option>
+</select>
+
+<h2>Formulario</h2>
+<form id="form-login">
+    <input type="text" placeholder="Usuario">
+    <input type="password" placeholder="Password">
+<div class="check">
+    <label for="check">Recordar</label>
+    <input type="checkbox" id="check">
+    <p id="message"></p>
+</div>
+<input type="submit" class="btn btn-login" value="ingresar">
+</form>
+
+<label for="filtro">Filtro:</label>
+<input type="text" id="filtro" placeholder="Buscar productos...">
+<ul id="productos">
+<li>Producto 1</li>
+<li>Producto 2</li>
+<li>Producto 3</li>
+<li>Producto 4</li>
+<li>Producto 5</li>
+</ul>
+
+<h1>Carrito de compras</h1>
+
+<div id="items">
+<h2>Productos</h2>
+<ul>
+    <li>Producto 1 <button onclick="addToCart('Producto 1', 10)">Agregar al carrito</button></li>
+    <li>Producto 2 <button onclick="addToCart('Producto 2', 20)">Agregar al carrito</button></li>
+    <li>Producto 3 <button onclick="addToCart('Producto 3', 30)">Agregar al carrito</button></li>
+    <li>Producto 4 <button onclick="addToCart('Producto 4', 40)">Agregar al carrito</button></li>
+    <li>Producto 5 <button onclick="addToCart('Producto 5', 100)">Agregar al carrito</button></li>
+</ul>
+</div>
+
+<div id="cart">
+<h2>Carrito de compras</h2>
+<ul id="cart-items">
+</ul>
+<p>Total: $<span id="cart-total">0</span></p>
+</div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

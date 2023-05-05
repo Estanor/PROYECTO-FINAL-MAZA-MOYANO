@@ -1,0 +1,37 @@
+[
+    {
+    "id":1,
+    "nombre":"Attack on Titan",
+    "demografia":"Shonen",
+    "genero":"Medieval, Fantasía",
+    "autor":"Hajime Isayama"
+    },
+    {
+    "id":1,
+    "nombre":"Chainsaw Man",
+    "demografia":"Shonen",
+    "genero":"sobrenatural, accion",
+    "autor":"Tatsuki Fujimoto"
+    },
+    {
+    "id":1,
+    "nombre":"Berserk",
+    "demografia":"Seinen",
+    "genero":"Medieval, Fantasía oscura",
+    "autor":"Kentaro Miura"
+    },
+    {
+    "id":1,
+    "nombre":"Black Clover",
+    "demografia":"Shonen",
+    "genero":"Medieval, Fantasía",
+    "autor":"Yuki Tabata"
+    },
+    {
+    "id":1,
+    "nombre":"My Hero Academia",
+    "demografia":"Shonen",
+    "genero":"Superheroes",
+    "autor":"Kohei Horikoshi"
+    }
+]
